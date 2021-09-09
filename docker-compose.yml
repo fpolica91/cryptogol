@@ -1,0 +1,13 @@
+version: "3.9"
+
+services: 
+  database:
+    image: postgres
+    container_name: cryptogol
+    restart: always
+    ports: 
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=gol
+      - POSTGRES_PASSWORD=gol
+      - POSTGRES_DB=cryptogol
