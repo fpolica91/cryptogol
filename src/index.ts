@@ -1,11 +1,13 @@
 import "reflect-metadata"
 import {createConnection} from "typeorm"
+import { schema } from 'src/utils/buildSchema';
 import {ApolloServer, ExpressContext} from 'apollo-server-express'
 import express from "express"
 
 const startServer = async () => { 
   await createConnection();
   const server = new ApolloServer({
+    schema: await schema(),
     context: ({ req, res }: ExpressContext) => ({ req, res }),
   })
   const app = express();
