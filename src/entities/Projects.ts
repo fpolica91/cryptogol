@@ -1,7 +1,7 @@
 import { Length } from 'class-validator';
 import { Field, ObjectType, InputType } from 'type-graphql';
 import { Column, PrimaryGeneratedColumn, Entity, BaseEntity, CreateDateColumn } from 'typeorm';
-
+// NOTE this is a comment
 const PROJECT_CONSTANTS = {
   MIN_TITLE_LENGTH: 3,
   MAX_TITLE_LENGTH: 100,

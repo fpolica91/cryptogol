@@ -1,2 +1,13 @@
 node_modules
 /node_modules
+
+node_modules
+
+.env
+.env.development
+.env.staging
+.env.production
+
+dist
+
+src/migration/
