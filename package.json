@@ -16,7 +16,7 @@
     "pre-commit": "lint-staged",
     "clubgoinuponatuesday": "docker-compose up -d"
     
-  },
+  },  
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/node": "^16.9.0",
