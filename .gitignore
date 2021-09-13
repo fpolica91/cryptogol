@@ -11,3 +11,9 @@ https://w41.torlook.info/frontend
 dist
 
 src/migration/
+node_modules
+.env
+
+#Hardhat files
+cache
+artifacts
