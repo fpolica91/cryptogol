@@ -14,4 +14,4 @@ const UserSchema = new mongoose.Schema({
   },
 });
 
-export default mongoose.model("Videos", UserSchema);
+export default mongoose.model("UserSchema", UserSchema);
