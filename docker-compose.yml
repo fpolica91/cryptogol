@@ -9,3 +9,4 @@ services:
     command: [--auth]
     restart: always
 # db.auth({user: "root", pwd: "rootpassword"})
+# mongo -u root -p root --authenticationDatabase admin
