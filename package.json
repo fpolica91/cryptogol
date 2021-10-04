@@ -12,7 +12,7 @@
     "typecheck": "tsc --noEmit",
     "husky": "husky install",
     "pre-commit": "lint-staged",
-    "deploy": "git add . && git commit -m Heroku && git push heroku master"
+    "deploy": "git add . && git commit -m Heroku && git push heroku"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
